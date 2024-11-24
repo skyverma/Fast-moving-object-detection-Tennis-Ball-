@@ -32,7 +32,8 @@ This project focuses on detecting fast-moving objects, specifically tennis balls
 The training dataset is available in the folder named `Data set for training`. It contains:
 - Images of tennis matches with tennis balls labeled.
 - Corresponding annotation files for YOLO training.
-
+- Use the link to access training data 
+https://drive.google.com/drive/folders/16qoSbac4ezep6fEctXtZOhk5GbCDc_e4
 ---
 
 ## Model Training
@@ -43,10 +44,10 @@ The training dataset is available in the folder named `Data set for training`. I
    - Include both:
      - **Automatic hyperparameter tuning**.
      - **Specific hyperparameter combinations** to compare performance.
-
+      
 2. **Training Steps**:
    - Load the dataset from the `Data set` folder.
-   - Configure the training parameters in the notebook.
+   - Configure the training parameters in the notebook(Trainig using the https://github.com/skyverma/Fast-moving-object-detection-Tennis-Ball-/blob/main/Training_Experiments_Weights/experiment-training-yolov8-all-combination.ipynb)
    - Train the YOLOv8 model on the dataset.
    - Save the trained weights.
 
@@ -57,7 +58,7 @@ Follow a similar process with YOLOv11 using the appropriate files provided.
 
 ## Pre-trained Weights
 
-If you do not wish to train the model, pre-trained weights are available in the `weights` folder:
+If you do not wish to train the model, pre-trained weights are available in the `Trainded weights` folder:(https://drive.google.com/drive/folders/16qoSbac4ezep6fEctXtZOhk5GbCDc_e4)
 - YOLOv8 weights
 - YOLOv11 weights
 
@@ -65,10 +66,11 @@ If you do not wish to train the model, pre-trained weights are available in the 
 
 ## Running the Detection
 
-1. Open the file `All YOLO V8`.
+1. Open the file `All YOLO V8`.(https://github.com/skyverma/Fast-moving-object-detection-Tennis-Ball-/blob/main/Final_files_to_get_all_results/all-yolo-v8-results.ipynb)
 2. Provide the required paths:
    - **Video Path**: Path to the video file where you want to detect the tennis ball.
    - **Weights Path**: Path to the trained YOLO weights (YOLOv8 or YOLOv11).
+   - Use pretrained weights visit folder Trained weight (https://drive.google.com/drive/folders/16qoSbac4ezep6fEctXtZOhk5GbCDc_e4)
 3. Run the file. 
    - The output will display the tennis ball detections on the video.
 
@@ -81,16 +83,17 @@ If you do not wish to train the model, pre-trained weights are available in the 
 
 - Evaluate the performance of YOLOv8 and YOLOv11 on the same dataset and video.
 - Compare metrics such as:
-  - Detection speed
-  - Accuracy
-  - Precision and recall
-  - FPS (Frames Per Second)
+  - Detection Ratio
+  - No of total frames detect the ball
+  - Compare by Visualisation
+ 
 
 ---
 
 ## Results
 
 - Output videos with detected tennis balls are saved in the output folder.
+- Go to this link and check the folder Result output videos folder to check the results(https://drive.google.com/drive/folders/16qoSbac4ezep6fEctXtZOhk5GbCDc_e4)
 - Logs for training and detection performance are in the notebooks for analysis.
 
 ---
@@ -102,3 +105,5 @@ If you do not wish to train the model, pre-trained weights are available in the 
    Use Ultralytics that have all YOLO models
    then follow the above steps
 
+## To get the final results:
+We made lot of experiments to get  the files go to this link and get all experments over training and testing  (https://drive.google.com/drive/folders/16qoSbac4ezep6fEctXtZOhk5GbCDc_e4) 
