@@ -44,7 +44,12 @@ https://drive.google.com/drive/folders/16qoSbac4ezep6fEctXtZOhk5GbCDc_e4
    - Include both:
      - **Automatic hyperparameter tuning**.
      - **Specific hyperparameter combinations** to compare performance.
-      
+       
+      **Training Configuration**:
+      ○ Model: YOLO v8 & 11 (manual & automatic tuning)
+      ○ Parameters: epochs=100, imgsz=640, batch=8, lr=1e-3,
+      optimizer='Adam', augment=True, hsv_h=0.015, hsv_s=0.7,
+      hsv_v=0.4, fliplr=0.5, mosaic=1.0, cache=True
 2. **Training Steps**:
    - Load the dataset from the `Data set` folder.
    - Configure the training parameters in the notebook(Trainig using the https://github.com/skyverma/Fast-moving-object-detection-Tennis-Ball-/blob/main/Training_Experiments_Weights/experiment-training-yolov8-all-combination.ipynb)
