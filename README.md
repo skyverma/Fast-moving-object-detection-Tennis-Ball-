@@ -109,6 +109,8 @@ If you do not wish to train the model, pre-trained weights are available in the 
 2. Install dependencies: 
    Use Ultralytics that have all YOLO models
    then follow the above steps
+   The input directory looks like..........
+![image](https://github.com/user-attachments/assets/b728516e-5624-4b4d-9fb4-962d72e2583f)
 
 ## To get the final results:
 We made lot of experiments to get  the files go to this link and get all experments over training and testing  (https://drive.google.com/drive/folders/16qoSbac4ezep6fEctXtZOhk5GbCDc_e4) 
